@@ -27,5 +27,4 @@ function calculatesFarePrice(start, destination) {
     } else if (rideDistance <= 2000) {
         return (rideDistance -400) * .02
     }
-
 }
